@@ -40,7 +40,7 @@
                         just
                         git
                         pre-commit
-                        # ssh
+                        openssh
                     ];
                     shellHook = ''
                        just devenv && exec zsh

@@ -43,7 +43,7 @@
                         openssh
                     ];
                     shellHook = ''
-                       just devenv && exec zsh
+                       just devenv
                     '';
                 };
             });
